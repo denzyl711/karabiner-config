@@ -28,9 +28,6 @@ Arrow key navigation.
 **Hyper + HJKL**  
 Vim-style arrow navigation.
 
-**Hyper + U / D / T / G** *(disabled)*  
-Page navigation and jump to top/bottom of page.
-
 ---
 
 ## Editing

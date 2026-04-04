@@ -22,22 +22,6 @@
                         ]
                     },
                     {
-                        "description": "Disable sysdiagnose (ctrl+option+command+shift+.) by passing through '.'",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "period",
-                                    "modifiers": {
-                                        "mandatory": ["control", "option", "command", "shift"],
-                                        "optional": ["any"]
-                                    }
-                                },
-                                "to": [{ "key_code": "period" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Hyper+U/D/T/G for page navigation",
                         "enabled": false,
                         "manipulators": [
@@ -111,27 +95,6 @@
                                 "to": [
                                     {
                                         "key_code": "f12",
-                                        "modifiers": ["option", "fn"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Hyper + G: Option + fn + F11 (Neovim toggle Github Copilot floaterm)",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "g",
-                                    "modifiers": {
-                                        "mandatory": ["left_control", "left_option", "left_command", "left_shift"],
-                                        "optional": ["any"]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f11",
                                         "modifiers": ["option", "fn"]
                                     }
                                 ],
